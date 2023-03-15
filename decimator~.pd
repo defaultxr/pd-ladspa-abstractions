@@ -1,4 +1,4 @@
-#N canvas 0 29 1600 849 10;
+#N canvas 0 29 1920 1048 10;
 #X obj 288 218 plugin~ decimator;
 #X obj 257 168 inlet~;
 #X obj 368 280 outlet~;
@@ -6,7 +6,7 @@
 #X obj 433 129 inlet;
 #X msg 322 174 control #1 \$1;
 #X msg 433 158 control #2 \$1;
-#X text 240 104 bit depth (1-24);
+#X text 319 100 bit depth (1-24);
 #X text 549 128 sampling rate (Hz);
 #X obj 375 119 lb \$1 24;
 #X obj 477 128 lb \$2 44099;
