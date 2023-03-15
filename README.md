@@ -1,6 +1,8 @@
 # pd-ladspa-abstractions
 Pure Data abstractions for various LADSPA plugins.
 
-Formerly a part of [my pd abstractions](https://github.com/defaultxr/defaultxrs-pd-abstractions).
+Formerly a part of [xr-abstractions](https://github.com/defaultxr/defaultxrs-pd-abstractions).
 
-Documentation coming soon. Maybe.
+Each abstraction should have comments listing what each inlet is for.
+
+Full documentation coming ~~soon~~ ~~eventually~~ maybe.
