@@ -1,4 +1,4 @@
-#N canvas 513 501 1600 849 10;
+#N canvas 513 501 2560 1566 10;
 #X obj 179 205 outlet~;
 #X obj 66 180 plugin~ hard_gate;
 #X obj 188 82 inlet;
@@ -10,7 +10,7 @@
 #X text 261 191 hard gate;
 #X obj 270 79 lb \$1;
 #X msg 18 163 info;
-#X obj 60 208 print xxxx;
+#X obj 60 208 print hard_gate;
 #X connect 1 0 11 0;
 #X connect 1 1 0 0;
 #X connect 2 0 3 0;
